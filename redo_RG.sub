@@ -1,0 +1,30 @@
+
+Universe        = vanilla
+Executable      = /bin/bash
+Log             = redo_rg.$(Cluster).log
+Output          = redo_rg.$(Cluster).$(Process).out
+Error           = redo_rg.$(Cluster).$(Process).err
+initialdir      = log_redo_rg
+request_cpus    = 2
+
+
+Arguments = /home/ubuntu/metal/gnos_redo_RG/redo_rg.sh /home/ubuntu/gfs/ancestry/rtg_population/ucsc_bams/518f1320-5833-461b-9eca-0bd3de52c5e4/PCAWG.871a5eda-14c1-4892-9e1f-cf087d454c30.bam 101
+Queue
+Arguments = /home/ubuntu/metal/gnos_redo_RG/redo_rg.sh /home/ubuntu/gfs/ancestry/rtg_population/ucsc_bams/3d397465-efc6-4a90-b7f5-bf5e0d5d6349/PCAWG.003a4eb9-c647-4a9f-aebb-b29dff6d5645.bam 102
+Queue
+Arguments = /home/ubuntu/metal/gnos_redo_RG/redo_rg.sh /home/ubuntu/gfs/ancestry/rtg_population/ucsc_bams/ee866c04-9e29-40d5-9a8d-9c6226f338eb/PCAWG.86568564-8463-4588-b43c-b4e205cf3cb6.bam 103
+Queue
+Arguments = /home/ubuntu/metal/gnos_redo_RG/redo_rg.sh /home/ubuntu/gfs/ancestry/rtg_population/ucsc_bams/024a5d25-4059-425f-ba81-8cf9ffdeef14/PCAWG.c6b26d8c-2615-499e-ac08-dde01c13161a.bam 104
+Queue
+Arguments = /home/ubuntu/metal/gnos_redo_RG/redo_rg.sh /home/ubuntu/gfs/ancestry/rtg_population/ucsc_bams/da3f0a33-cc29-4f34-8cec-25e46e7ca1b8/PCAWG.d4c21d47-b474-4a87-a1e2-b70b061a84f7.bam 105
+Queue
+Arguments = /home/ubuntu/metal/gnos_redo_RG/redo_rg.sh /home/ubuntu/gfs/ancestry/rtg_population/ucsc_bams/78331830-6b59-486b-b88a-b4667b138b1e/PCAWG.269387d9-06f5-47df-a57e-39235645fa38.bam 106
+Queue
+Arguments = /home/ubuntu/metal/gnos_redo_RG/redo_rg.sh /home/ubuntu/gfs/ancestry/rtg_population/ucsc_bams/0fa7da82-053e-4b80-8544-133b143f8022/PCAWG.59378079-3dbd-41f7-b1cb-5b2e5629dab3.bam 107
+Queue
+Arguments = /home/ubuntu/metal/gnos_redo_RG/redo_rg.sh /home/ubuntu/gfs/ancestry/rtg_population/ucsc_bams/e38efffa-a1fe-4410-93a4-3991c616836f/PCAWG.3b3f76bf-d639-408d-94af-601466f339a6.bam 108
+Queue
+Arguments = /home/ubuntu/metal/gnos_redo_RG/redo_rg.sh /home/ubuntu/gfs/ancestry/rtg_population/ucsc_bams/81046bf0-6bbd-4cfe-ada4-6af8ddea5433/PCAWG.a90d8746-02a8-4ef5-9eb0-8c6334fef070.bam 109
+Queue
+Arguments = /home/ubuntu/metal/gnos_redo_RG/redo_rg.sh /home/ubuntu/gfs/ancestry/rtg_population/ucsc_bams/98478952-77e5-46ed-828c-346554e52181/PCAWG.f0bb5f25-210f-49e7-bb7a-2903591b037e.bam 110
+Queue
